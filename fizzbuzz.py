@@ -7,3 +7,5 @@ def fizzbuzz(n):
         return "Buzz"
     return str(n)
 
+for number in range(1, 16):
+    print(fizzbuzz(number))
